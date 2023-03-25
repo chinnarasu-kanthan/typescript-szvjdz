@@ -1,0 +1,71 @@
+.stage-container {
+  max-width: 900px;
+}
+
+.draft-stage {
+  background-color: #fffbef;
+}
+
+.error-stage {
+  background-color: #ffefef;
+}
+
+.processing-stage {
+  background-color: #eff2ff;
+}
+
+.status-icon {
+  grid-column: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.draft-stage-content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.error-stage-content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.processing-stage-content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.draft-stage-end {
+  font-size: x-small;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.draft-stage-body {
+  grid-column: 2 / 13;
+}
+
+.processing-stage-body {
+  grid-column: 2 / 13;
+}
+
+.draft-stage-progress-bar-orange {
+  bottom: 0px;
+  background-color: #ffbf00;
+  height: 4px;
+  float: left;
+}
+
+.draft-stage-progress-bar-grey {
+  bottom: 0px;
+  background-color: #c8ced3;
+  height: 4px;
+  float: right;
+}

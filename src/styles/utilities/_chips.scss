@@ -1,0 +1,62 @@
+.chip-primary-hover {
+  background-color: #1a3d67 !important;
+  color: white !important;
+  &:hover {
+    background-color: #112945 !important;
+  }
+}
+
+.chip-primary {
+  background-color: #1a3d67 !important;
+  color: white !important;
+}
+
+.chip-light-blue-hover {
+  background-color: #3399ff !important;
+  color: white !important;
+  &:hover {
+    background-color: #004f9e !important;
+  }
+}
+
+.chip-light-blue {
+  background-color: #3399ff !important;
+  color: white !important;
+}
+
+.chip-danger-hover {
+  background-color: #cf274f !important;
+  color: white !important;
+  &:hover {
+    background-color: #921c37 !important;
+  }
+}
+
+.chip-danger {
+  background-color: #cf274f !important;
+  color: white !important;
+}
+
+.chip-green-hover {
+  background-color: #4dbd74 !important;
+  color: white !important;
+  &:hover {
+    background-color: #348d54 !important;
+  }
+}
+
+.chip-green {
+  background-color: #4dbd74 !important;
+  color: white !important;
+}
+
+
+.chip-venn-primary {
+  background-color: #e0e0e0 !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.chip-venn-alt {
+  background-color: #3399ff !important;
+  color:white!important;
+}

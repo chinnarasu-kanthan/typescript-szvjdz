@@ -1,0 +1,27 @@
+.ailevate {
+  &__stepper {
+    .create-steps {
+      .MuiSvgIcon-root {
+        font-size: 2.5rem;
+        &.MuiStepIcon-active {
+          color: #ffbf00;
+        }
+        &.MuiStepIcon-completed {
+          color: #1976d2;
+        }
+      }
+      .MuiStepConnector-alternativeLabel {
+        top: 20px;
+        left: calc(-50% + 30px);
+        right: calc(50% + 30px);
+      }
+
+      .MuiStepLabel-labelContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
